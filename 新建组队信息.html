@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        #a{
+            width: 360px;
+            height:50px;
+            background-color: dodgerblue;
+        }
+        #b{
+            width: 358px;
+            height: 589px;
+            border-left: dodgerblue 1px solid;
+            border-right: dodgerblue 1px solid;
+            border-bottom: dodgerblue 1px solid;
+        }
+        #a,#b,table,input{
+            margin: 0px auto;
+            position: relative;
+        }
+        #a1{
+            font-size: 19px;
+            font-family: 华文中宋;
+            color: white;
+            text-align: center;
+            padding-top: 12px;
+        }
+        #a2{
+            top: 5px;
+            left: 8px;
+        }
+        #b1{
+            top: 12px;
+            left: 130px;
+        }
+        #b2,#b3,#b4,#b5,#b6,#b7{
+            top: 120px;
+            line-height: 1.3em;
+        }
+        #b2{
+            left: 129px;
+        }
+        #b3,#b4,#b5{
+            left: 12px;
+        }
+        #b6,#b7{
+            left: 75px;
+        }
+        input{
+            width: 100px;
+            height: 20px;
+            margin-right: 8px;
+        }
+        select{
+            top: 202px;
+            left: 33px;
+        }
+        #b2,#b3,#b4,#b5,#b6,#b7,#b12,#b13,#c1,#c2,#c3,#c4,#c5,#d1,#d2,#d3,#d4,#d5,select{
+            text-align: center;
+            font-size: 14px;
+            font-family: 华文中宋;
+            line-height: 1.4em;
+        }
+        #c1,#c2,#c3,#c4,#c5,#d1,#d2,#d3,#d4,#d5{
+            border: none;
+        }
+        #b8{
+            padding-top: 155px;
+        }
+        #b8,#b10{
+            color: dodgerblue;
+            font-size: 16px;
+            font-family: 华文中宋;
+            padding-left: 20px;
+            line-height: 0.5em;
+        }
+        #b9{
+            top:245px
+        }
+        #b10{
+            padding-top: 33px;
+        }
+        #b11{
+            bottom:142px;
+        }
+        #b12{
+            left: 20px;
+            bottom: 90px;
+            text-align: center;
+        }
+        #b13{
+            width: 58px;
+            left: 150px;
+            bottom: 60px;
+        }
+        #b14{
+            bottom: 0px;
+        }
+        #a2,#b1,#b9,#b11,#b12,#b13,#b14,select{
+            position: absolute;
+        }
+        table{
+            width: 260px;
+            height: 150px;
+            border-collapse: collapse;
+            top:20px
+        }
+        tr,td{
+            text-align: center;
+            font-size: 14px;
+            font-family: 华文中宋;
+        }
+        #t1{
+            color: dodgerblue;
+        }
+    </style>
+</head>
+<body>
+<div id="a">
+    <div id="a1">新建组队信息</div>
+    <a href="组队信息首页.html">
+        <img id="a2" src="images/返回.png" alt=""></img>
+    </a>
+</div>
+<div id="b">
+    <img id="b1" src="images/头像(大).png" alt=""></img>
+    <input placeholder="请输入姓名" type="text" id="b2">
+    <br>
+    <input placeholder="请输入学院" type="text" id="b3">
+    <input placeholder="请输入专业" type="text" id="b4">
+    <input placeholder="请输入年级" type="text" id="b5">
+    <br>
+    <input placeholder="请输入联系方式" type="text" id="b6">
+    <input placeholder="请输入电子邮箱" type="text" id="b7">
+    <select>
+        <option>第四届中国"互联网+"大学生创新创业大赛</option>
+        <option value="">2018年第四届全国新三板价值分析大赛</option>
+        <option value="">"万科杯"第十六届辽宁省案例分析大赛</option>
+        <option value="">"学创杯"2018全国大学生创业综合模拟大赛</option>
+        <option value="">东北大学2018年大学生电子商务创意挑战赛</option>
+        <option value="">第六届大学生科技资源共享服务创新大赛</option>
+        <option value="">第六届全国并行应用挑战赛(PAC2018)</option>
+        <option value="">2018年APEC未来之声中国区选拔赛</option>
+        <option value="">2018年全国大学生数学建模竞赛</option>
+        <option value="">全国高校大数据应用创新大赛</option>
+        <option value="">全国大学生计算机设计竞赛</option>
+    </select>
+    <div id="b8">相关成绩</div>
+    <img id="b9" src="images/分割线.png" alt=""></img>
+    <table border="1" cellspacing="0">
+        <tr id="t1">
+            <td>科目名称</td>
+            <td width="90px">成绩</td>
+        </tr>
+        <tr>
+            <td><input placeholder="科目(一)" type="text" id="c1"></td>
+            <td><input placeholder="成绩(一)" type="text" id="d1"></td>
+        </tr>
+        <tr>
+            <td><input placeholder="科目(二)" type="text" id="c2"></td>
+            <td><input placeholder="成绩(二)" type="text" id="d2"></td>
+        </tr>
+        <tr>
+            <td><input placeholder="科目(三)" type="text" id="c3"></td>
+            <td><input placeholder="成绩(三)" type="text" id="d3"></td>
+        </tr>
+        <tr>
+            <td><input placeholder="科目(四)" type="text" id="c4"></td>
+            <td><input placeholder="成绩(四)" type="text" id="d4"></td>
+        </tr>
+        <tr>
+            <td><input placeholder="科目(五)" type="text" id="c5"></td>
+            <td><input placeholder="成绩(五)" type="text" id="d5"></td>
+        </tr>
+    </table>
+    <div id="b10">曾获奖项</div>
+    <img id="b11" src="images/分割线.png" alt=""></img>
+    <textarea id="b12" cols="37" rows="2">请输入曾获奖项…</textarea>
+    <input id="b13" type="submit">
+    <img id="b14" src="images/菜单栏.png" alt=""></img>
+</div>
+</body>
+</html>
